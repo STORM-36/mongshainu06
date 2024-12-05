@@ -1,0 +1,171 @@
+
+body {
+    background-color: #051a2d;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(8, 34, 83, 0.8);
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.logo-email h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #f39c12;
+}
+
+.logo-email p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.logo-email a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+.hire-me a {
+    color: #ffffff;
+    background-color: #f39c12;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hire-me a:hover {
+    background-color: #e08e0b;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    flex: 1;
+    z-index: 1;
+    overflow-y: auto; 
+}
+
+.projects,  .skills {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.projects h2,  .skills h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #f39c12;
+}
+
+.project-list,  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; 
+}
+
+.project,  .skill {
+    width: calc(33.333% - 20px);
+    background-color: #00204c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project h3, .skill p {
+    color: #b3b3ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p,  .skill p {
+    color: #cccccc;
+    font-size: 16px;
+}
+
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    background-color: #071128;
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(33.333% - 20px);
+    text-align: center;
+}
+
+.skill i {
+    font-size: 40px;
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .project, .work, .skill {
+        width: 100%;
+    }
+}
+footer 
+{ background-color: transparent; 
+    padding: 20px; 
+    text-align: center; 
+    color: #b39ddb;
+}

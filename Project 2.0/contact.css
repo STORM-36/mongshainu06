@@ -1,0 +1,108 @@
+
+body {
+    background-color: #0e123d;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(12, 58, 111); 
+}
+
+.logo-email h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #f39c12;
+}
+
+.logo-email p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.logo-email a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.form-container, .contact-details {
+    background-color: #070d20;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.form-container h2 {
+    color: #b39ddb;
+}
+
+.form-container p {
+    margin-bottom: 20px;
+}
+
+.form-container input, .form-container select, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #494d4f;
+    color: #ffffff;
+}
+
+.form-container button {
+    background-color: #7e57c2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-details h3 {
+    color: #b39ddb;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+footer 
+{ background-color: transparent; 
+    padding: 20px; 
+    text-align: center; 
+    color: #b39ddb;
+}
